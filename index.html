@@ -11,20 +11,34 @@
 
     <header class="cabecalho">
         <nav class="cabecalho__aba">
-            <a class="cabecalho__aba__link" href="#">Home</a>
+            <a class="cabecalho__aba__link" href="index.html">Home</a>
             <a class="cabecalho__aba__link" href="#">About</a>
             <a class="cabecalho__aba__link" href="#">Contato</a>
         </nav>
         <img class="cabecalho__img" src="/imagens/5300_6_10.jpg" alt="imagem astronauta">
     </header>
     <main >
-        <section class="apresentacao">
+    
+        <section class="apresentacao">  
+            <section class="aside">
+                <div class="mundos">
+                    <a class="planetasAbaLink" href="#">Planetas</a>
+                    <ul id="planetasAba" class="planetas hide">
+                        <li class="terra">Terra</li>
+                        <li class="marte">Marte</li>
+                        <li class="venus">Venus</li>
+                        <li class="saturno">Saturno</li>
+                        <li class="plutao">Plutão</li>
+                    </ul>
+                </div>
+            </section>
             <section class="apresentacao__conteudo" >
                 <h1 class="apresentacao__conteudo__titulo">Explorando o espaço</h1>
                 <h2 class="apresentacao__conteudo__subtitulo">Conheça novos mundos desse universo incrível e maravilhoso.</h2>
             </section>
                 <img class="apresentacao__imagem__galaxia" src="/imagens/glowing-spaceship-orbits-planet-starry-galaxy-generated-by-ai.jpg" alt="imagem galaxia">
         </section>
+
         <section class="conteudo__galaxias">
             <h2 class="apresentacao__conteudo__subtitulo centralizando">Vamos explorar esses mundos incríveis!</h2>
         </section>
@@ -32,6 +46,6 @@
     <footer>
 
     </footer>
-    
+    <script src="app.js"></script>
 </body>
 </html>
