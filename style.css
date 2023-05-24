@@ -35,7 +35,7 @@ a {
     display: flex;
     justify-content: space-between;
     background-color: var(--cor-secundaria);
-    padding: 3% 14% 3% 14%;
+    padding: 1% 14% 1% 14%;
 
 }
 
@@ -47,7 +47,7 @@ a {
 
 .cabecalho__aba__link {
     color: var(--cor-principal);
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .cabecalho__aba__link:hover {
@@ -57,7 +57,7 @@ a {
 }
 
 .cabecalho__img {
-    width: 10%;
+    width: 3%;
     margin-left: 5%;
     border-radius: 15%;
 }
