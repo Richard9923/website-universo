@@ -86,11 +86,14 @@ a {
     gap: 30px;
 }
 
+.apresentacao__aside {
+    margin-right: 5%;
+}
+
 .aside {
-    height: 10%;
-    width: 10%;
+
     background-color: black;
-    padding: 5%;
+    padding: 30% 60% 30% 60%;
     border-radius: 3%;
 }
 
@@ -178,6 +181,7 @@ li:hover {
 
 .planetas__informacoes__img {
     width: 50%;
+    
 }
 
 .planetas__informacoes__img:hover {
@@ -202,8 +206,42 @@ li:hover {
     font-family: var(--fonte-primaria);
     font-size: 1rem;
     padding: 1%;
+    position: sticky;
+    top: 100%;
 }
 
+
+
+
+
+
+@media (max-width: 410px) {
+    .cabecalho__aba__link {
+        font-size: 1.3rem;
+    }
+
+    .cabecalho__img {
+        width: 0%;
+    }
+
+    .frase__universo {
+        font-size: 1.8rem;
+    }
+
+    .apresentacao__aside {
+        padding: 20%;
+    }
+
+
+    .apresentacao__conteudo__titulo  {
+        font-size: 2.3rem;
+    }
+
+    .desenvolvedor {
+        font-size: 0.8rem;
+    }
+
+}
 
 
 @media (max-width: 500px) {
@@ -212,19 +250,71 @@ li:hover {
     }
 
     .cabecalho__img {
-        width: 10%;
+        width: 0%;
+    }
+
+    .frase__universo {
+        font-size: 2rem;
+    }
+
+    .apresentacao__aside {
+        padding: 10%;
+    }
+
+    .apresentacao__conteudo__titulo  {
+        font-size: 2.3rem;
+    }
+
+    .desenvolvedor {
+        font-size: 0.8rem;
+    }
+
+}
+
+@media (max-width: 700px) {
+    .cabecalho__aba__link {
+        font-size: 1.5rem;
+    }
+
+    .cabecalho__img {
+        width: 2%;
     }
 
 }
 
 
-@media (max-width: 1200px) {
+@media (max-width: 1400px) {
     .apresentacao {
         flex-direction: column;
+        
+    }
+
+    .apresentacao__aside {
+        display: flex;
+        justify-content: center;        
+    }
+
+    .aside {
+        padding: 10% 40% 10% 40%;
     }
 
     .apresentacao__imagem__galaxia {
         width: 100%;
+    }
+
+    .conteudo__galaxias {
+        
+    }
+
+    .conteudo__galaxias__informacoes {
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .planetas__informacoes {
+        align-items: center;
+        gap: 10px;
     }
 }
 
