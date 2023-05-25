@@ -47,7 +47,7 @@ a {
 
 .cabecalho__aba__link {
     color: var(--cor-principal);
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .cabecalho__aba__link:hover {
@@ -57,13 +57,13 @@ a {
 }
 
 .cabecalho__img {
-    width: 3%;
+    width: 2%;
     margin-left: 5%;
     border-radius: 15%;
 }
 
 .frase__apresentacao {
-    padding: 12% 10% 0% 10%;
+    padding: 12% 15% 0% 15%;
     display: flex;
     justify-content: center;
     font-family: var(--fonte-primaria);
@@ -72,7 +72,7 @@ a {
 
 
 .apresentacao {
-    padding: 12% 8% 12% 8%;
+    padding: 12% 15% 12% 15%;
     display: flex;
     justify-content: space-between;
    /* align-items: center; */
@@ -105,6 +105,12 @@ a {
     font-family: var(--fonte-secundaria);
     color: var(--cor-principal);
     
+}
+
+.planetas {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 
 .planetas > li {
@@ -149,6 +155,56 @@ li:hover {
 .centralizando {
     text-align: center;
 }
+
+.conteudo__galaxias__informacoes {
+    display: flex;
+    justify-content: center;
+    padding: 12% 15% 12% 15%;
+    gap: 5%;
+}
+
+.planetas__informacoes {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    font-family: var(--fonte-secundaria);  
+}
+
+.planetas__informacoes__titulo {
+    font-size: 1.8rem;
+    padding-left: 10%;
+
+}
+
+.planetas__informacoes__img {
+    width: 50%;
+}
+
+.planetas__informacoes__img:hover {
+    width: 52%;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.planetas__informacoes__info {
+    font-size: 1.3rem;
+}
+
+.negrito {
+    color: var(--cor-secundaria);
+    font-weight: bolder;
+}
+
+.footer {
+    background-color: var(--cor-secundaria);
+    text-align: center;
+    color: var(--cor-principal);
+    font-family: var(--fonte-primaria);
+    font-size: 1rem;
+    padding: 1%;
+}
+
+
 
 @media (max-width: 500px) {
     .cabecalho__aba__link {
